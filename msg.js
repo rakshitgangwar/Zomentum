@@ -17,7 +17,6 @@ $(function() {
     str +="<li class=\"me\">"
     str +=  "<div class=\"entete\">"
     str +=    "<h3>"+h+":"+m+", Today </h3>"
-    str +=    "<h2>me</h2>"
     str +=    "<span class=\"status blue\"></span>"
     str +=  "</div>"
     str +=  "<div class=\"triangle\"></div>"
