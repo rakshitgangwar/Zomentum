@@ -1,5 +1,7 @@
 $(function() {
-  var INDEX = 0;
+  var t=new Date();
+  var h = t.getHours();
+    var m = t.getMinutes();
   $("#chat-submit").click(function(e) {
     e.preventDefault();
     var msg = $("#chat-input").val();
@@ -14,7 +16,7 @@ $(function() {
     var str="";
     str +="<li class=\"me\">"
     str +=  "<div class=\"entete\">"
-    str +=    "<h3>, Today</h3>"
+    str +=    "<h3>"+h+":"+m+", Today </h3>"
     str +=    "<h2>me</h2>"
     str +=    "<span class=\"status blue\"></span>"
     str +=  "</div>"
